@@ -25,7 +25,7 @@ The two new role permissions are:
 - **view-recent-activity** - This will control whether or not the Recent Activity should be visible in the various areas where it is present.
 - **view-extended-activity** - This will control the access to the Revisions sub-page of a given element and also hide who the author has created or updated an element.
 
-These roles will be available as system permissions you can toggle in the role editor, when editing a role:
+These permissions will be available as system permissions you can toggle in the role editor, when editing a role:
 - Show recent activity
 - Show extended activity
 
@@ -50,7 +50,7 @@ INSERT INTO `role_permissions` (`id`, `name`, `display_name`, `description`, `cr
 10) Hit the **Go** button and if everything went well, the **role_permissions** table should now have two new permissions!
 You can verify  this by refreshing the table.
 11) Log into your BookStack instace as Admin. Navigate to **Settings -> Roles**
-12) By default the new roles are unchecked for all roles in BookStack.
+12) By default the new permissions are unchecked for all roles in BookStack.
 Select a role, e.g. Admin and check both **Show recent activity** and **Show extended activity** and hit Save Role.
 Now all admins will be able to view Recent Activity and have access to the Revisions browser in a page.
 
