@@ -79,4 +79,7 @@ Issues and pull-requests are welcome.
 
 This theme is licensed under the BSD 3-Clause License.
 See [LICENSE](LICENSE) for details.
+
+
+
 Copyright (c) 2024 Glenn Dufke, code-kungfu.com
