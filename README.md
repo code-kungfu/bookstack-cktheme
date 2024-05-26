@@ -2,7 +2,7 @@
 
 A theme for the [BookStack](https://www.bookstackapp.com) Wiki software.
 
-
+---
 
 ### Preface
 Out of the box, BookStack does not allow you to toggle the display of **Recent Activity**, who has created / updated an element, shown in **Details** box and **Revisions Browser**. For privacy reasons, more often than not, you want to limit who can view recent activity and who has created or updated an element in BookStack.
@@ -11,8 +11,7 @@ Thanks to the well thought out structure of BookStack and good software design b
 
 Please go support Dan and his BookStack project, in any way possible. This is an amazing piece of software.
 
-
-
+---
 
 ### Installation
 
@@ -54,18 +53,26 @@ INSERT INTO `role_permissions` (`id`, `name`, `display_name`, `description`, `cr
 Select a role, e.g. Admin and check both **Show recent activity** and **Show extended activity** and hit Save Role.
 Now all admins will be able to view Recent Activity and have access to the Revisions browser in a page.
 
+---
+
 
 ### Kudos
 
 - Dan Brown and contributors making BookStack such a great software.
 - People in the following Github [issue](https://github.com/BookStackApp/BookStack/issues/1291) who also wanted to control the sidebar content. This is what inspired me to implement this theme in the first place.
 
+---
+
 ### Version History
 
 v1.0 - Initial release of the theme. Based on files from BookStack **v24.05.1**
 
+---
+
 ### Contributions
 Issues and pull-requests are welcome.
+
+---
 
 ### License
 
