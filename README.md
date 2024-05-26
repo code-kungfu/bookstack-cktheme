@@ -47,7 +47,8 @@ INSERT INTO `role_permissions` (`id`, `name`, `display_name`, `description`, `cr
 (79, 'view-recent-activity', 'View Recent Activity', NULL, '2024-05-24 23:36:00', '2024-05-24 23:36:00'),
 (80, 'view-extended-activity', 'View Extended Activity', NULL, '2024-05-24 23:36:00', '2024-05-24 23:36:00');
 ```
-10) Hit the **Go** button and if everything went well, the **role_permissions** table should now have tow new permissions!
+10) Hit the **Go** button and if everything went well, the **role_permissions** table should now have two new permissions!
+You can verify  this by refreshing the table.
 11) Log into your BookStack instace as Admin. Navigate to **Settings -> Roles**
 12) By default the new roles are unchecked for all roles in BookStack.
 Select a role, e.g. Admin and check both **Show recent activity** and **Show extended activity** and hit Save Role.
